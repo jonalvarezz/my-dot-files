@@ -1,0 +1,63 @@
+{
+    "files.encoding": "utf8",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "files.hotExit": "off",
+    "editor.matchBrackets": true,
+    "editor.useTabStops": true,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "telemetry.enableTelemetry": false,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "vue-html": "html",
+      "mardown": "html",
+      "plaintext": "jade",
+      "php": "html"
+    },
+    "emmet.syntaxProfiles": {
+      "php": "html"
+    },
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 17,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontWeight": "400",
+    "prettier.eslintIntegration": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 5,
+    "editor.renderWhitespace": "all",
+    "window.zoomLevel": -1,
+    "workbench.activityBar.visible": false,
+    "files.exclude": {
+      ".eslintcache": true,
+      ".publish": true,
+      "**/.DS_Store": true,
+      "**/.git": true,
+      "**/.hg": true,
+      "**/.svn": true,
+      "**/CVS": true,
+      "flow-typed": true,
+      "node_modules": true
+    },
+    "git.enableSmartCommit": true,
+    "workbench.statusBar.feedback.visible": false,
+    "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.tabCompletion": "on",
+    "prettier.singleQuote": true,
+    "editor.formatOnSave": true,
+    "files.associations": {
+      "*.js": "javascriptreact"
+    },
+}
