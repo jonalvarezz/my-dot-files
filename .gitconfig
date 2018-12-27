@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Jonathan Alvarez G
+	email = j@jonalvarezz.com
+[core]
+	editor = nano
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
