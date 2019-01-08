@@ -60,4 +60,5 @@
     "files.associations": {
       "*.js": "javascriptreact"
     },
+    "javascript.validate.enable": false
 }
