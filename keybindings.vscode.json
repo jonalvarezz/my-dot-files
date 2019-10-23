@@ -1,0 +1,15 @@
+// ~/Library/Application Support/Code/User/keybindings.json
+[
+  {
+    "key": "alt+cmd+8",
+    "command": "-workbench.action.toggleEditorGroupLayout"
+  },
+  {
+    "key": "alt+cmd+8",
+    "command": "workbench.action.toggleEditorGroupLayout"
+  },
+  {
+    "key": "alt+cmd+0",
+    "command": "-workbench.action.toggleEditorGroupLayout"
+  }
+]
