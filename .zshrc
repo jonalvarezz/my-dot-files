@@ -2,6 +2,7 @@
 export ZSH="/Users/jonathanalvarez/.oh-my-zsh"
 
 ## Theme
+# Grab fonts from https://github.com/ryanoasis/nerd-fonts
 ZSH_THEME="spaceship"
 
 # Spaceship theme
