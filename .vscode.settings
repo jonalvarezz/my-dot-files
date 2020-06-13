@@ -1,9 +1,7 @@
 {
-  "workbench.colorTheme": "Cobalt2",
-  "editor.fontFamily": "Inconsolata-dz, Menlo, Monaco, 'Courier New', monospace",
+  "workbench.colorTheme": "Nako Light",
+  "editor.fontFamily": "Victor Mono, Inconsolata-dz, Menlo, monospace",
   "editor.fontSize": 17,
-  "editor.lineHeight": 25,
-  "editor.letterSpacing": 0.5,
   "files.trimTrailingWhitespace": true,
   "editor.fontWeight": "400",
   "editor.cursorStyle": "line",
@@ -19,6 +17,7 @@
   "emmet.includeLanguages": {
     "vue-html": "html",
     "javascript": "javascriptreact",
+    "typescriptreact": "javascriptreact",
     "php": "html",
     "twig": "html",
     "twig-language-2": "html"
@@ -26,21 +25,58 @@
   "files.insertFinalNewline": true,
   "twig-language-2.formatting": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "window.zoomLevel": 1,
-  "terminal.integrated.fontFamily": "Inconsolata-dz for Powerline",
+  "window.zoomLevel": 2,
+  "terminal.integrated.fontFamily": "Inconsolatago Nerd Font",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 14,
   "workbench.startupEditor": "newUntitledFile",
   "git.enableSmartCommit": true,
   "eslint.alwaysShowStatus": true,
-  "eslint.nodePath": "/Users/jonathanalvarez/.nvm/versions/node/v11.10.1/bin/node",
+  "eslint.nodePath": "/Users/jonathanalvarez/.nvm/versions/node/v12.1.0/bin/node",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "gitlens.codeLens.enabled": false,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
     "typescript",
     "typescriptreact"
-  ]
+  ],
+  "window.newWindowDimensions": "maximized",
+  "editor.semanticHighlighting.enabled": false,
+  "git.enableCommitSigning": true,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "editor.tokenColorCustomizations": {
+    "[Nako]": {
+      "comments": {
+        "fontStyle": "italic"
+      },
+      "types": {
+        "fontStyle": "italic"
+      },
+      "keywords": {
+        "fontStyle": "italic"
+      }
+    },
+    "[Nako Light]": {
+      "comments": {
+        "fontStyle": "italic"
+      },
+      "types": {
+        "fontStyle": "italic"
+      },
+      "keywords": {
+        "fontStyle": "italic"
+      }
+    }
+  },
+  "editor.dragAndDrop": false,
+  "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "emmet.triggerExpansionOnTab": true
 }
