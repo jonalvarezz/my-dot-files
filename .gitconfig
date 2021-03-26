@@ -9,7 +9,7 @@
 [core]
 	# Globally excluded files
 	excludesfile = ~/.gitignore
-	# No time to lear VIM.
+	# No time to learn VIM.
 	editor = nano
 [push]
 	default = current
