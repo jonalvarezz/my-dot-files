@@ -13,7 +13,6 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.activityBar.visible": false,
-  "prettier.disableLanguages": ["twig", "html.twig", "twig-language-2", "yml"],
   "emmet.includeLanguages": {
     "vue-html": "html",
     "javascript": "javascriptreact",
@@ -25,7 +24,6 @@
   "files.insertFinalNewline": true,
   "twig-language-2.formatting": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "window.zoomLevel": 2,
   "terminal.integrated.fontFamily": "Inconsolatago Nerd Font",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 14,
@@ -45,9 +43,8 @@
   "window.newWindowDimensions": "maximized",
   "editor.semanticHighlighting.enabled": false,
   "git.enableCommitSigning": true,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "explorer.confirmDelete": false,
-  "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "explorer.confirmDragAndDrop": false,
   "kite.showWelcomeNotificationOnStartup": false,
@@ -78,5 +75,24 @@
   "editor.dragAndDrop": false,
   "editor.formatOnPaste": true,
   "editor.multiCursorModifier": "ctrlCmd",
-  "emmet.triggerExpansionOnTab": true
+  "emmet.showSuggestionsAsSnippets": true,
+  "files.autoSaveDelay": 1700,
+  "workbench.sideBar.location": "right",
+  "cSpell.enabled": false,
+  "cSpell.enableFiletypes": ["mdx"],
+  "cSpell.userWords": ["internations", "prefetch"],
+  "workbench.colorCustomizations": {
+    "[Nako Light]": {
+      "input.background": "#fff"
+    }
+  },
+  "kite.codefinder.enableLineDecoration": false,
+  "gitlens.advanced.abbreviateShaOnCopy": true,
+  "bookmarks.navigateThroughAllFiles": false,
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 2,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  }
 }
