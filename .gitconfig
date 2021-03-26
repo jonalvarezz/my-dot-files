@@ -1,9 +1,27 @@
 # This is Git's per-user configuration file.
+
+[user]
+	name = NAME
+	email = EMAIL
+	# See: signing git-commmits
+	# https://stealthpuppy.com/signing-git-commits-for-sweet-verified-badges/
+	signingkey = KEY
 [core]
-	editor = nano
+	# Globally excluded files
 	excludesfile = ~/.gitignore
+	# No time to lear VIM.
+	editor = nano
+[push]
+	default = current
+[pull]
+	ff = only
+	rebase = preserve
+[fetch]
+	prune = true
 [filter "lfs"]
-	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+	clean = git-lfs clean -- %f
+[lfs]
+	concurrenttransfers = 25
