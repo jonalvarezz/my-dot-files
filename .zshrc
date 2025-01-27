@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jonathanalvarez/.oh-my-zsh"
+export ZSH="/Users/jonalvarezz/.oh-my-zsh"
 
 ## Theme
 # Grab fonts from https://github.com/ryanoasis/nerd-fonts
@@ -41,7 +41,7 @@ SPACESHIP_PROMPT_ORDER=(
   exit_code     # Exit code section
   char          # Prompt character
 )
-SPACESHIP_CHAR_PREFIX="🌚 "
+SPACESHIP_CHAR_PREFIX="🌝 "
 SPACESHIP_CHAR_SYMBOL="〉"
 
 

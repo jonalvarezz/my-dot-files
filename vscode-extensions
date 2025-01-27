@@ -1,20 +1,24 @@
 # Productivity
 alefragnani.bookmarks
+bradlc.vscode-tailwindcss
+christian-kohler.path-intellisense
 dsznajder.es7-react-js-snippets
-kiteco.kite
 xabikos.javascriptsnippets
-ionutvmi.path-autocomplete
 cardinal90.multi-cursor-case-preserve
 britesnow.vscode-toggle-quotes
 oderwat.indent-rainbow
 
 # Syntax Higlight / Linters
+github.copilot
 streetsidesoftware.code-spell-checker
 dbaeumer.vscode-eslint
 eamodio.gitlens
 kumar-harsh.graphql-for-vscode
-silvenon.mdx
+unifiedjs.vscode-mdx
+vue.volar
+wix.vscode-import-cost
 esbenp.prettier-vscode
 visualstudioexptteam.vscodeintellicode
-jpoissonnier.vscode-styled-components
 
+# Themes
+github.github-vscode-theme

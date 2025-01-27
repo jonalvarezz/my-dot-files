@@ -1,11 +1,13 @@
 # This is Git's per-user configuration file.
 
 [user]
-	name = NAME
-	email = EMAIL
 	# See: signing git-commmits
 	# https://stealthpuppy.com/signing-git-commits-for-sweet-verified-badges/
 	signingkey = KEY
+	name = NAME
+	# Use your private GitHub email address
+	# https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address
+	email = EMAIL
 [core]
 	# Globally excluded files
 	excludesfile = ~/.gitignore

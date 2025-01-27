@@ -1,9 +1,11 @@
 {
-  "workbench.colorTheme": "Nako Light",
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
   "editor.fontFamily": "Victor Mono, Inconsolata-dz, Menlo, monospace",
-  "editor.fontSize": 17,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 1.8,
+  "editor.letterSpacing": 1,
   "files.trimTrailingWhitespace": true,
-  "editor.fontWeight": "400",
+  "editor.fontWeight": "500",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "expand",
@@ -26,7 +28,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "terminal.integrated.fontFamily": "Inconsolatago Nerd Font",
   "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 16,
   "workbench.startupEditor": "newUntitledFile",
   "git.enableSmartCommit": true,
   "eslint.alwaysShowStatus": true,
@@ -47,9 +49,8 @@
   "explorer.confirmDelete": false,
   "editor.tabSize": 2,
   "explorer.confirmDragAndDrop": false,
-  "kite.showWelcomeNotificationOnStartup": false,
   "editor.tokenColorCustomizations": {
-    "[Nako]": {
+    "[GitHub Light Colorblind (Beta)]": {
       "comments": {
         "fontStyle": "italic"
       },
@@ -60,7 +61,7 @@
         "fontStyle": "italic"
       }
     },
-    "[Nako Light]": {
+    "[GitHub Dark Colorblind (Beta)]": {
       "comments": {
         "fontStyle": "italic"
       },
@@ -81,15 +82,10 @@
   "cSpell.enabled": false,
   "cSpell.enableFiletypes": ["mdx"],
   "cSpell.userWords": ["internations", "prefetch"],
-  "workbench.colorCustomizations": {
-    "[Nako Light]": {
-      "input.background": "#fff"
-    }
-  },
-  "kite.codefinder.enableLineDecoration": false,
   "gitlens.advanced.abbreviateShaOnCopy": true,
   "bookmarks.navigateThroughAllFiles": false,
   "editor.formatOnSave": true,
+  "tailwindCSS.emmetCompletions": true,
   "window.zoomLevel": 2,
   "launch": {
     "configurations": [],

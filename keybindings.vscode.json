@@ -1,4 +1,4 @@
-// ~/Library/Application Support/Code/User/keybindings.json
+// ~/Library/Application\ Support/Code/User/keybindings.json
 [
   {
     "key": "alt+cmd+8",
@@ -11,5 +11,15 @@
   {
     "key": "alt+cmd+0",
     "command": "-workbench.action.toggleEditorGroupLayout"
+  },
+  {
+    "key": "ctrl+cmd+f",
+    "command": "-workbench.action.toggleFullScreen"
+  },
+  // force explorer openining
+  {
+    "key": "shift+cmd+e",
+    "command": "workbench.view.explorer"
+    // "when": "viewContainer.workbench.view.explorer.enabled"
   }
 ]
